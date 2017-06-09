@@ -25,7 +25,7 @@ WORKDIR /opt
 
 RUN wget https://github.com/darneta/rpwm/archive/master.zip
 RUN unzip master.zip
-RUN mv master app
+RUN mv rpwm-master app
 RUN rm master.zip
 
 WORKDIR /opt/app
