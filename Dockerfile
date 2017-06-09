@@ -17,6 +17,7 @@ ENV WEBHOOK_TOKEN $WEBHOOK_TOKEN
 
 EXPOSE $APP_PORT
 
+RUN apt-get update
 RUN apt-get -y install unzip
 RUN mkdir -p /opt
 
