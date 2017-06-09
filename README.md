@@ -6,7 +6,7 @@ Dockerized rhodecode packagist webhook middleware
 
 Check https://github.com/darneta/rpwm
 
-### ENV variables
+## ENV variables
 
 `PACKAGIST_USER` - packagist username  
 `PACKAGIST_TOKEN` - packagist API Token  
@@ -14,7 +14,7 @@ Check https://github.com/darneta/rpwm
 `PACKAGIST_URL` - default "https://packagist.org"  
 `APP_PORT` - default 80  
 
-### Run
+## Quick start
 
 ```bash 
 docker run \
